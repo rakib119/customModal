@@ -2,32 +2,6 @@
     --bg-color: #ffff;
     --black :#0000;
   }
-/* 
-.custom-modal{
-    height: 100%;
-    width: 100%;
-    position: relative;  
-    background-color:  rgba(113, 113, 113, 0.364);
-}
-.custom-modal-content { 
-    position: absolute; 
-    left: 50%;   
-    transform: translateX(-50%);
-    background-color: var(--bg-color);
-    z-index: 999;
-    padding: 20px;
-    border: 2px solid red;
-    width: 80%;
-    text-align: center;
-    border-radius: 15px;
-}
-.center {
-    margin: auto;
-    width: 300px;
-} */
-
- 
- 
 /* searching box */
 
 .modal-message p,span,h1,h2,h3,h4,h5,h6{
