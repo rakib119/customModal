@@ -1,0 +1,91 @@
+:root {
+    --bg-color: #ffff;
+    --black :#0000;
+  }
+/* 
+.custom-modal{
+    height: 100%;
+    width: 100%;
+    position: relative;  
+    background-color:  rgba(113, 113, 113, 0.364);
+}
+.custom-modal-content { 
+    position: absolute; 
+    left: 50%;   
+    transform: translateX(-50%);
+    background-color: var(--bg-color);
+    z-index: 999;
+    padding: 20px;
+    border: 2px solid red;
+    width: 80%;
+    text-align: center;
+    border-radius: 15px;
+}
+.center {
+    margin: auto;
+    width: 300px;
+} */
+
+ 
+ 
+/* searching box */
+
+.modal-message p,span,h1,h2,h3,h4,h5,h6{
+    color: #000;
+}
+
+.custom-modal {
+    position: fixed;
+    z-index: 999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.custom-modal-content {
+    background-color: var(--bg-color);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid var(--bg-color);
+    width: 80%;
+    border-radius: 15px;
+}
+.center {
+    margin: auto;
+    width: 300px;
+}
+ 
+.my-account-item {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(114, 114, 114, 0.25);
+    box-shadow: 0px 0px 10px 0px rgba(114, 114, 114, 0.25);
+    /* height: 272px; */
+    border-top: 2px solid #8547e2;
+    position: relative;
+    text-align: center;
+    padding: 35px 10px 40px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+ 
+  
+.text-center{
+    text-align: center;
+}
+.my-account-item:before {
+    left: 0;
+}
+.my-account-item:after {
+    right: 0;
+}
+.icon{
+    text-align:center;
+    color: #46f2d4;
+    font-size: 1.5cm;
+}
